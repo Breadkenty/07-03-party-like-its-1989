@@ -1,0 +1,39 @@
+{
+  "page": 1,
+  "total_results": 3960,
+  "total_pages": 198,
+  "results": [
+    {
+      "popularity": 24.794,
+      "vote_count": 4774,
+      "video": false,
+      "poster_path": "/tDexQyu6FWltcd0VhEDK7uib42f.jpg",
+      "id": 268,
+      "adult": false,
+      "backdrop_path": "/rBN6GPKUDZ6ZKAQiEZegZ0DZb6V.jpg",
+      "original_language": "en",
+      "original_title": "Batman",
+      "genre_ids": [28, 14],
+      "title": "Batman",
+      "vote_average": 7.2,
+      "overview": "The Dark Knight of Gotham City begins his war on crime with his first major enemy being the clownishly homicidal Joker, who has seized control of Gotham's underworld.",
+      "release_date": "1989-06-23"
+    },
+    {
+      "popularity": 24.164,
+      "vote_count": 5223,
+      "video": false,
+      "poster_path": "/6aXMusULuKFAK0ZRUlv7RJ9zHTc.jpg",
+      "id": 10144,
+      "adult": false,
+      "backdrop_path": "/4w2uPtIo0lFSnQnWg0zVAqPJCLP.jpg",
+      "original_language": "en",
+      "original_title": "The Little Mermaid",
+      "genre_ids": [16, 14, 10751],
+      "title": "The Little Mermaid",
+      "vote_average": 7.3,
+      "overview": "This colorful adventure tells the story of an impetuous mermaid princess named Ariel who falls in love with the very human Prince Eric and puts everything on the line for the chance to be with him. Memorable songs and characters -- including the villainous sea witch Ursula.",
+      "release_date": "1989-11-17"
+    }
+  ]
+}

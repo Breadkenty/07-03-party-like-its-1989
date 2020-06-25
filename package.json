@@ -5,10 +5,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "react-scripts build",
-    "deploy": "echo 'To setup deployment run: yarn setup-deploy'",
+    "deploy": "netlify deploy --prod --dir=build",
     "setup-deploy": "app-app --deploy && yarn deploy",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postdeploy": "echo 'Your site was deployed to https://07-03-party-like-its-1989-kento.netlify.com'"
   },
   "browserslist": [
     ">0.2%",
@@ -30,9 +31,12 @@
     "stylelint-config-standard": "^20.0.0"
   },
   "dependencies": {
+    "date-fns": "^2.14.0",
     "json": "^9.0.6",
+    "moment": "^2.27.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "^3.4.1"
-  }
+  },
+  "homepage": "https://07-03-party-like-its-1989-kento.netlify.com"
 }
